@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe game</h1>
+    <div class="grid" id="board">
+        <button id="c0" onclick="playerClicked(0)"></button>
+        <button id="c1" onclick="playerClicked(1)"></button>
+        <button id="c2" onclick="playerClicked(2)"></button>
+        <button id="c3" onclick="playerClicked(3)"></button>
+        <button id="c4" onclick="playerClicked(4)"></button>
+        <button id="c5" onclick="playerClicked(5)"></button>
+        <button id="c6" onclick="playerClicked(6)"></button>
+        <button id="c7" onclick="playerClicked(7)"></button>
+        <button id="c8" onclick="playerClicked(8)"></button>
+    </div>
+    <div id="playerTurn">
+        Irina's
+    </div>
+    <div class="winning-msg" id="winningMsg">
+        <div class="text"></div>
+        <button id="restart" onclick="render(true)">Restart</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
